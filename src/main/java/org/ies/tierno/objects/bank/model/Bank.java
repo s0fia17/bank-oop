@@ -15,7 +15,7 @@ public class Bank {
     public void showInfo() {
         System.out.println("Banco " + name);
         for (int i = 0; i < accounts.length; i++) {
-            System.out.println("Cuenta " + i);
+            System.out.print("Cuenta " + (i +1)+": ");
             accounts[i].showInfo();
         }
     }

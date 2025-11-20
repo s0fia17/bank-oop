@@ -14,8 +14,7 @@ public class Account {
     }
 
     public void showInfo() {
-        System.out.println("IBAN: " + iban + ". Saldo: " + balance);
-        System.out.print("Titular: ");
+        System.out.print("IBAN: " + iban + ". Saldo: " + balance +". Titular: ");
         customer.showInfo();
     }
 
